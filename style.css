@@ -1,0 +1,115 @@
+body{
+    background-image: url(bg.avif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 1000px;
+}
+.right{
+    border: none;
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.4));
+    height: 550px;
+    width: 700px;
+    background-color:  rgb(236, 181, 222);
+    border-radius: 50px;
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.inner{
+    background: linear-gradient(#bee1ffe3, rgb(254, 195, 254) );
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 25px;
+    font-size: 24px;
+    margin-top: 30px;
+}
+img{
+    display: flex;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    border: none;
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.4));
+    
+}
+.welcome{
+    text-align: center;
+}
+h2{
+    font-size: 60px;
+    font-family: Copperplate;
+    letter-spacing: 1px;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: Times;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+}
+.icon-container {
+    border: none;
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.5));
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin-top: 20px;
+    font-size: 100px;
+    margin-top: 40px;
+    margin-left: 125px;
+}
+.fa-square-facebook {
+    color: rgb(60, 90, 153);
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.fa-square-facebook:hover {
+    color: rgb(96, 116, 158);
+    opacity: 0.8;
+}
+.fa-square-facebook:active {
+    opacity: 0.5;
+}
+.fa-envelope{
+    color: rgb(193, 40, 96);
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.fa-envelope:hover {
+    color: rgb(188, 123, 147);
+    opacity: 0.8;
+}
+.fa-envelope:active {
+    opacity: 0.5;
+}
+.fa-square-twitter{
+    color: rgb(63, 163, 222);
+    cursor: pointer;
+    transition: opacity 0.15s;
+
+}
+.fa-square-twitter:hover {
+    color: rgb(111, 178, 217);
+    opacity: 0.8;
+}
+.fa-square-twitter:active {
+    opacity: 0.5;
+}
+.fa-instagram{
+    color: rgb(214, 104, 14);
+    cursor: pointer;
+
+}
+.fa-instagram:hover{
+    color: rgb(212, 145, 90);
+    opacity: 0.8;
+}
+.fa-instagram:active {
+    opacity: 0.5;
+}
